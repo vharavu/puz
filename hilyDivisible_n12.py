@@ -3,6 +3,10 @@ import math
 
 
 def findDivisors(num):
+    '''
+    :param num: Integer input
+    :return: number of divisors of input integer
+    '''
     allFctrs = []
     #        for y in range(2, int(num/2) + 1):
     for y in range(2, int(math.sqrt(num)) + 1):
