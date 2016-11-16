@@ -87,3 +87,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# something added by pycharm perhaps?
+.idea/
+
